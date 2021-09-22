@@ -1,0 +1,17 @@
+Hi Leandro
+
+Yes, as you have already observed, the nRF52832 OPS 0.6 does not include any current consumption specification for Low Power Counter. It is not specified yet. There are number of peripherals that do not yet have proper specifications, as the measurements have not been carried out yet. The PCA10036 board for the nRF52832 contains anyway a preview kit and the specification is still not final, with version 0.6.
+
+Soon there will be released an engineering version of the chip and production version is scheduled for january 2016. We can expect the specification to improve in this regards when the engineering release is out, scheduled for october 2015.
+
+Update 14.4.2016 Unfortunately, there is still no current consumption data available for the low power counter. I have made a request for it but nothing is available yet. However, I made an example which sets TIMER0 into counter mode and lets RTC0 tick event count up the TIMER counter. The results are as follows:
+
+    TIMER counter disabled: ~4uA
+    TIMER counter enabled, no TASKS_COUNT event triggered: ~11uA
+    TIMER counter enabled, TASKS_COUNT event triggered 8 times per second: ~11uA
+    TIMER counter enabled, TASKS_COUNT event triggered 100 times per second: ~23uA
+
+So it seems the TIMER in counter mode consumes ~7uA on my PCA10040 v1.1.0 board with nRF52832 QFAAB0 rev 1. That is the best information I can provide at this point for low power counter current consumption. I attach the test code below which I made for nRF5 SDK 11.0.0.
+
+from: 
+https://devzone.nordicsemi.com/f/nordic-q-a/8979/nrf52-very-low-power-counter/33052#33052
