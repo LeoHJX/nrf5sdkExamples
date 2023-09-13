@@ -57,10 +57,9 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1026" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="1012" codecName="UTF-8"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="11368" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../config/sdk_config.h" selected="0" top="11368" codecName="UTF-8"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="99" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/util/app_error_weak.c" selected="0" top="81" codecName="UTF-8"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="46" y="117" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="197" codecName="UTF-8"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="1" y="11383" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../config/sdk_config.h" selected="0" top="11368" codecName="UTF-8"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="7" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="ble_app_uart_pca10056_s113.emProject" selected="0" top="7" codecName="UTF-8"/>
  </Files>
- <ARMCrossStudioWindow activeProject="ble_app_uart_pca10056_s113" fileDialogDefaultFilter="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.hxx" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3711"/>
+ <ARMCrossStudioWindow activeProject="ble_app_uart_pca10056_s113" fileDialogDefaultFilter="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.hxx" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
 </session>
